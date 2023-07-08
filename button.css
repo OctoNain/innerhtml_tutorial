@@ -1,0 +1,36 @@
+.center
+{
+    display :flex;   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+}
+input.info
+{
+    width: auto;
+    height: 200px;
+}
+button.info
+{
+    width: 100px;
+    margin-left: 37px;
+    margin-right: 20px;
+    text-align: center;
+    display: block;
+    font-size: large;
+    background-color: #FFDD43;
+    border: 2px solid #ffdd4389 ;
+    border-radius: 15px;
+}
+#submit
+{   
+    display: block;
+    clear: both;    
+    
+}    

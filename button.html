@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bitton.css">
+    <title>Javascript Button</title>
+</head>
+<script>
+    function appear()
+    {
+        t = window.prompt("Type in a comment");
+        var one=document.getElementById("one");
+        one.innerHTML=`<p>${t}</P>`
+       
+
+    }
+
+</script>
+<body>
+    <div class ="center">
+        <div class="info">
+        <output id="one" class="info" type ="text"></output>
+        <button class="info" id="submit" onclick="appear()">Click Me!!!</button>
+        </div>
+    </div>
+</body>
+</html>
